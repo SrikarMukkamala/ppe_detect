@@ -62,6 +62,7 @@ seaborn==0.13.2
 six==1.16.0
 smmap==5.0.1
 streamlit==1.32.2
+streamlit-webrtc
 sympy==1.12
 tenacity==8.2.3
 thop==0.1.1.post2209072238
