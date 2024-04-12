@@ -31,7 +31,7 @@ def _display_detected_frames(conf, model, st_frame, image, is_display_tracking=N
     if is_display_tracking:
         res = model.track(image, conf=conf, persist=True, tracker=tracker)
     else:
-        # Predict the objects in the image using the YOLOv8 model
+        # Predict the objects in the image using the model
         res = model.predict(image, conf=conf)
 
     # # Plot the detected objects on the video frame
