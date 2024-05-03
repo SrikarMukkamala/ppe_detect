@@ -103,6 +103,7 @@ elif source_radio == settings.WEBCAM:
 
 elif source_radio == settings.YOUTUBE:
     helper.play_youtube_video(confidence, model)
-
+elif source_radio == settings.REPORT:
+    helper.report()
 else:
     st.error("Please select a valid source type!")
