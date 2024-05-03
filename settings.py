@@ -16,8 +16,9 @@ IMAGE = 'Image'
 VIDEO = 'Video'
 WEBCAM = 'Webcam'
 YOUTUBE = 'YouTube'
+REPORT = 'Report'
 
-SOURCES_LIST = [IMAGE, VIDEO, WEBCAM, YOUTUBE]
+SOURCES_LIST = [IMAGE, VIDEO, WEBCAM, YOUTUBE, REPORT]
 
 # Images config
 IMAGES_DIR = ROOT / 'images'
